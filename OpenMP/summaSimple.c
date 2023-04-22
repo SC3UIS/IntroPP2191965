@@ -4,6 +4,7 @@
 // Positive integers 1,2,3...n are known as natural numbers
 
 #include <stdio.h>
+
 int main()
 {
     int num, count, sum = 0;
