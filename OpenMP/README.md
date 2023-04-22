@@ -38,10 +38,12 @@ solución en paralelo, indicando que utilice *OpenMP*.
 ## Arquitecturas donde se ejecutó
 ### Máquina local
 Se corrieron las instrucciones de compilación manualmente y la salida estándar quedó así:
+
 ![Ejecución en local](./recursos/local.png)
 
 ### GUANE
 Para correr el algoritmo en GUANE se utilizó el archivo `summaSimple.sbatch`, apoyado en el sistema *SLURM* 
 que ya está instalado y nos permite usar su comando `sbatch`:
+
 ![Ejecución en GUANE](./recursos/guane.png)
 
