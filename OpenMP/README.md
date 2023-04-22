@@ -42,5 +42,6 @@ Se corrieron las instrucciones de compilación manualmente y la salida estándar
 
 ### GUANE
 Para correr el algoritmo en GUANE se utilizó el archivo `summaSimple.sbatch`, apoyado en el sistema *SLURM* 
-que ya está instalado y nos permite usar su comando `sbatch`.
+que ya está instalado y nos permite usar su comando `sbatch`:
 ![Ejecución en GUANE](./recursos/guane.png)
+
