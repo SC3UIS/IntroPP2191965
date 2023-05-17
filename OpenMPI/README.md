@@ -62,5 +62,5 @@ Se corrieron las instrucciones de compilación manualmente y la salida estándar
 Para correr el algoritmo en GUANE se utilizó el archivo `summaSimple-mpi.sbatch`, apoyado en el 
 sistema *SLURM* que ya está instalado y nos permite usar su comando `sbatch`:
 
-![Ejecución en GUANE](./recursos/local.png)
+![Ejecución en GUANE](./recursos/guane8.png)
 
