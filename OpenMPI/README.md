@@ -64,3 +64,35 @@ sistema *SLURM* que ya está instalado y nos permite usar su comando `sbatch`:
 
 ![Ejecución en GUANE](./recursos/guane8.png)
 
+## Comparaciones de tiempo
+### Máquina local
+Operando hasta $n=10000$.
+
+| Intento | Serial | OpenMP | OpenMPI |
+|---------|--------|--------|---------|
+| 1       | 0.003  | 0.006  | 0.198   |
+| 2       | 0.003  | 0.004  | 0.245   |
+| 3       | 0.003  | 0.005  | 0.175   |
+| 4       | 0.003  | 0.004  | 0.233   |
+| 5       | 0.003  | 0.010  | 0.199   |
+| 6       | 0.003  | 0.009  | 0.237   |
+
+En general los tres modos se ven así:
+
+![Estadísticas ejecución en local](./recursos/tiempos_ejecucion_local.png)
+
+### GUANE
+Operando hasta $n=12000$.
+
+| Intento | Serial | OpenMP | OpenMPI |
+|---------|--------|--------|---------|
+| 1       | 0.002  | 0.006  | 0.679   |
+| 2       | 0.002  | 0.008  | 0.701   |
+| 3       | 0.003  | 0.005  | 0.658   |
+| 4       | 0.001  | 0.013  | 0.674   |
+| 5       | 0.003  | 0.008  | 0.669   |
+| 6       | 0.002  | 0.006  | 0.680   |
+
+En general los tres modos se ven así:
+
+![Estadísticas ejecución en GUANE](./recursos/tiempos_ejecucion_guane.png)
