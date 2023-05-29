@@ -81,6 +81,14 @@ En general los tres modos se ven así:
 
 ![Estadísticas ejecución en local](./recursos/tiempos_ejecucion_local.png)
 
+Finalmente, la media quedó:
+
+| Media | Serial  | OpenMP   | OpenMPI |
+|-------|---------|----------|---------|
+| Local | 0.00300 | 0.006333 | 0.2145  |
+
+![Media de ejecución en local](./recursos/media_tiempos_ejecucion_local.png)
+
 ### GUANE
 Operando hasta $n=12000$.
 
@@ -96,3 +104,11 @@ Operando hasta $n=12000$.
 En general los tres modos se ven así:
 
 ![Estadísticas ejecución en GUANE](./recursos/tiempos_ejecucion_guane.png)
+
+Finalmente, la media quedó:
+
+| Media | Serial   | OpenMP   | OpenMPI  |
+|-------|----------|----------|----------|
+| GUANE | 0.002166 | 0.007666 | 0.676833 |
+
+![Media de ejecución en GUANE](./recursos/media_tiempos_ejecucion_guane.png)
